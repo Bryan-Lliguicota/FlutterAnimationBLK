@@ -27,7 +27,7 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
   void initState(){
     super.initState();
 
-    animationController = new AnimationController(vsync: this, duration: new Duration(seconds: 1));
+    animationController = new AnimationController(vsync: this, duration: new Duration(milliseconds: 500));
     animation = new CurvedAnimation(parent: animationController, curve: Curves.easeOut);
 
     animation.addListener(() => this.setState(() {}));

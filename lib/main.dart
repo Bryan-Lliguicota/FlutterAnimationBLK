@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/splash_screen.dart';
+import 'package:my_app/tree_page.dart';
 
 void main() {
   runApp(MyApp());
