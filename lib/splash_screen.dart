@@ -1,3 +1,4 @@
+/*
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:my_app/tree_page.dart';
@@ -74,3 +75,4 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
     );
   }
 }
+ */
